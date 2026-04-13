@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+staticfiles/
+
+# Media files (uploaded by users - should use cloud storage in production)
+static/images/*.jpg
+static/images/*.jpeg
+static/images/*.png
+static/images/*.gif
+static/images/*.webp
+# Keep the avatar.svg default
+!static/images/avatar.svg
+
+# OS
+.DS_Store
+Thumbs.db
+
+.myenv/
+theme/
