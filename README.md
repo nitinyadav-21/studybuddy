@@ -2,8 +2,6 @@
 
 StudyBud is a Django-based web application where users can create and join study rooms on various topics, engage in discussions, and collaborate with other learners. 
 
-This project was built as part of a comprehensive 7-hour video tutorial: [Watch the full tutorial here](https://youtu.be/PtQiiknWUcI?si=DK6uyA5ZnU1oR8v4)
-
 ## Screenshots
 
 <table width="100%"> 
@@ -27,14 +25,7 @@ This project was built as part of a comprehensive 7-hour video tutorial: [Watch 
 
 ## Setup Instructions
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/divanov11/StudyBud.git
-cd StudyBud
-```
-
-### 2. Create and activate a virtual environment
+### 1. Create and activate a virtual environment
 
 ```bash
 # Install virtualenv if you haven't already
@@ -50,13 +41,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the development server
+### 3. Run the development server
 
 ```bash
 python manage.py runserver
